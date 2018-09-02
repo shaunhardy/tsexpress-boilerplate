@@ -1,0 +1,33 @@
+{
+  "name": "tsexpress-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript express boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "mocha --reporter spec --compilers tsc:ts-node/register test/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "@types/mongodb": "^3.1.4",
+    "@types/mongoose": "^5.2.9",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.9.4",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
